@@ -3,14 +3,15 @@ html {
     height: 2348px;
     top: -1664px;
     left: 1387px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
     
 body {
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat', sans-serif;
 }
 
   /* Button-Top */
@@ -26,9 +27,8 @@ body {
 .studio-text-color {
     width: 145px;
     height: 31px;
-    margin-top: 24px;
-   padding-left: 0px;
     color: #000000;
+    text-decoration: none;
 }
 
 .Studio-button {
@@ -65,7 +65,7 @@ body {
     margin-top: 32px;
     margin-left: 385px;
     text-decoration: none;
-    color: #2196F3;
+    color: #757575;
 }
 
 .Number-button {
@@ -87,25 +87,31 @@ body {
 
 .effective-solution {
     background-image: 
-    linear-gradient(rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)), 
-    url(/images/layoout-background-photo.jpg);
-    margin-left: 0px;
-    width: 1600px;
+    linear-gradient( rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4) ),
+    url(/images/background-photo.jpg);
+    text-align: center;
+    width: 1680px;
     height: 600px;
 }
 
 .layout-text {
     background-color: transparent;
     color: aliceblue;
-    margin-left: 500px;
-    padding-top: 230px;
-    margin-top: 100px;
     height: 40px;
-
+    width: 1680px;
+    padding-top: 250px;
 }
 
 .request-our-service {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
     font-size: 16px;
     background-color: #2196f3;
     border: none;
@@ -117,32 +123,44 @@ body {
     font-weight: 700;
     letter-spacing: 0.96px;
     transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
-    align-items: center;
-   margin-left: 650px;
+    text-align: center;
 }
 
 .antenna {
-    background-color: #F5F4FA ;
-    width: 190px;
-    height: 80px;
+    background-color: transparent ;
+    width: 70px;
+    height: 70px;
+    background-image:
+     url(/images/background.featuree.png);
+    
+
 }
 
 .clock {
-    background-color: #F5F4FA ;
-    width: 113px;
-    height: 80px;
+    background-color: transparent ;
+    width: 70px;
+    height: 70px;
+    background-image: 
+    url(/images/background.featuree.png);
+   
 }
 
 .tv {
-    background-color: #F5F4FA ;
-    width: 85px;
-    height: 80px;
+    background-color: transparent ;
+    width: 70px;
+    height: 70px;
+    background-image: 
+    url(/images/background.featuree.png);
+   
 }
 
 .astronaut {
-    background-color: #F5F4FA ;
-    width: 210px;
-    height: 80px;
+    background-color: transparent ;
+    width: 70px;
+    height: 70px;
+    background-image: 
+    url(/images/background.featuree.png);
+    
 }
 
 .antenna-section {
@@ -171,37 +189,102 @@ body {
 }
 
 .whatwedo {
-    margin-top: 40px;
-    padding-left: 650px;
+    margin-top: 100px;
+    text-align: center;
 }
 
-.example1 {
+.desktopbg {
+    color: #fff;
+    text-align: center;
+    width: 370px;
+    height: 70px;
     margin-left: 100px;
+    margin-top: -60px;
+    color: #000;
 }
 
-.example2 {
-    margin-left: 30px;
+.mobilebg {
+    color: #fff;
+    width: 370px;
+    height: 70px;
+    margin-left: 680px;
+    color: #000;
+    margin-top: -300px;
 }
 
-.example3 {
-    margin-left: 30px;
+.designbg {
+    color: #fff;
+    text-align: center;
+    width: 370px;
+    height: 70px;
+    margin-left: 1000px;
+    margin-top: -60px;
 }
 
 .our-team {
-    margin-top: 40px;
-    padding-left: 650px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .product-designer {
+    margin-left: 215px;
+}
+
+.finish-footer {
+    background: #2F303A;
+    width: 1680px;
+    height: 251px;
+    margin-left: 0px;
+}
+
+
+
+.img1 {
     margin-left: 200px;
+    width: 370px;
+    height: 294px;
 }
 
-.footer {
-    margin-top: 222px;
-    background-image: none
-    color purple;
+.img2 {
+    width: 370px;
+    height: 294px;
+    margin-left: 30px;
 }
 
-.colored-footer {
-    background-color: #000000;
+.img3 {
+    width: 370px;
+    height: 294px;
+    margin-left: 30px;
+}
+
+
+.web-text-finish {
+    color: #2196F3;
+    width: 145px;
+    height: 31px;
+    text-decoration: none;
+}
+
+.location-footer {
+    color: #fff;
+}
+
+.email-footer {
+    color: gray;
+}
+
+.number-footer {
+    color: gray
+}
+
+.studio-text-finish {
+    color: #fff;
+    text-decoration: none;
+    width: 145px;
+    height: 31px;
+}
+
+.img-wedo {
+    color: #fff;
+    background-color: #2F303A;
 }
